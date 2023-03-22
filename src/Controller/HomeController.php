@@ -13,6 +13,7 @@ class HomeController extends AbstractController
     {
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
+            'hello' => 'Hola me llamo Jesus bienvenido al curso de Symfony 6'
         ]);
     }
 }
