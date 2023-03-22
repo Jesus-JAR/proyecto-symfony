@@ -1,10 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{# Title page #}
+{% block title %}Hello {{ controller_name }} {% endblock %}
 
+{# body page #}
 {% block body %}
     <div class="container-fluid">
-    <h1 class="display-1 text-center pt-4"> {{ controller_name }}</h1>
-    <h2 class=h1 text-start pt-2 > {{ hello }} </h2>
+        <h1 class="display-1 text-center pt-4"> {{ controller_name }}</h1>
+        <h2 class=h2 text-start pt-2 > {{ hello }} </h2>
     </div>
 {% endblock %}

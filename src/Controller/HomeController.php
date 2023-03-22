@@ -16,4 +16,5 @@ class HomeController extends AbstractController
             'hello' => 'Hola me llamo Jesus bienvenido al curso de Symfony 6'
         ]);
     }
+
 }
