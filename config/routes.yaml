@@ -1,7 +1,17 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+
+# controllers:
+    # resource:
+        # path: ../src/Controller/
+        # namespace: App\Controller
+    # type: attribute
+
+index:
+    path: /home
+    controller: App\Controller\HomeController::index
+
+animales:
+    path: /animales/{name?}
+    controller: App\Controller\HomeController::animales
+    defaults: { name: 'Bolt'}
 
 
